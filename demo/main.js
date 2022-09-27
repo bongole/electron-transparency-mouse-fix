@@ -9,6 +9,8 @@ const html = npath.join(__dirname, './demo.html')
   await app.whenReady()
 
   const win = new BrowserWindow({
+    width: 500,
+    height: 500,
     transparent: true,
     frame: false,
     hasShadow: false,
