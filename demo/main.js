@@ -1,5 +1,5 @@
 const { BrowserWindow, app } = require('electron')
-const npath = require('node:path')
+const npath = require('path')
 const { EtmfMain } = require('../lib/dist/electron/etmf-main')
 
 const preload = npath.join(__dirname, './dist/preload.js')
